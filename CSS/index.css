@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: rgb(2,0,36);
+background: linear-gradient(225deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 54%, rgba(255,0,0,1) 100%);
+color: #fff;
+}
+
+.random-quote{
+    background-color: rgba(255, 255,255, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.random-quote h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.random-quote h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.random-quote p{
+    font-size: 25px;
+    font-style: italic;
+    margin: 10px;
+}
+.random-quote button{
+    font-size: 18px;
+    margin-top: 10px;
+    width: 300px;
+}

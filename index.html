@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <title>Quote Generator App</title>
+</head>
+
+<body>
+    <section id="all" class="all vh-100 d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="random-quote d-flex align-items-center flex-column rounded-3 p-5 text-center">
+                        <h1>Random Quote Generator</h1>
+                        <h2>
+                            <i class="fa-solid fa-quote-left"></i>
+                            <span id="quote">Be yourself; everyone else is already taken.</span>
+                            <i class="fa-solid fa-quote-right"></i>
+                        </h2>
+                        <p class="writer" id="writer">~ Oscar Wilde ~</p>
+                        <button onclick="randomQuote()" class="btn btn-outline-light"> New Quote </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
